@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+#shopping{
+  color : red;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#product-name {
+  margin-bottom: 8px;
+}
+
+
+#product-price {
+  margin-bottom: 8px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: Times;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: #4caf50;
 }
